@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Question no 2
+#Write a bash script to rename the all files with extension .txt inside your assignment directory and list them on console.
+
+rename -v 's/\.txt$/1\.txt/' *.txt
+

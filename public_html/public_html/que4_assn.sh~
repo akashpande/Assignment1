@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#After renaming all the files store the output of listing of files inside the directory to some assignment.log file with date and time inside the log all re-naming of files happens.
+
+
+
+
+var = $(que2_assn.sh)
+
+var >> assignment.log 
