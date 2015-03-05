@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <title>Assignment</title>
+
+<script src="javascript_assignment/js/lib/jquery-1.11.2.js"></script>
+<script src="javascript_assignment/js/lib/lib.js"></script>
+<script src="javascript_assignment/js/users.js"></script>
+</head>
+  
+
+    <body><form id="form_id">
+  Enter the equation:
+      <input type="text" id="eq_id" />
+     <input type="submit" value="parse" id="eq_button_id"/>
+      <br/>
+      <br/>
+   a:<input type="text" id="a_id"/><br/><br/>
+   b:<input type="text" id="b_id"/><br/><br/>
+   c:<input type="text" id="c_id"/><br/><br/>
+   
+   Minimum x value:<input type="text" id="x_min_id"/><br/>
+   Maximum x value:<input type="text" id="x_max_id"/><br/>
+   Step:<input type="text" id="step_id"/><br/>
+
+   <input type="button" value="draw" id="draw_button_id"/>
+   <br/><br/>
+   <canvas id="canvas_id" height="500" width="500"></canvas>
+   </form>
+</body>
+</html>
